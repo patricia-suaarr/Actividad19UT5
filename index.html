@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            table, tr, td{
+                border: 1px black solid;
+                border-collapse: collapse;
+                padding: 10px;
+            }
+            td:hover{
+                background-color: rgb(129, 180, 238);
+            }
+            .operador{
+                background-color: rgb(47, 119, 202);
+                color:white;
+            }
+
+            .operador:hover{
+                background-color: rgb(44, 92, 148);
+                color:white;
+            }
+        </style>
+    </head>
+    <body>
+        <table id="principal">
+            <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td class="operador">+</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td class="operador">-</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td class="operador">*</td>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>.</td>
+                <td></td>
+                <td class="operador">/</td>
+            </tr>
+            <tr>
+                <td class="operador">CE</td>
+                <td class="operador">C</td>
+                <td class="operador">=</td>
+                <td></td>
+            </tr>
+        </table>
+        <p id="resultado"></p>
+        <script src="js/funciones.js"></script>
+    </body>
+</html>
